@@ -1,4 +1,4 @@
-# Kubernetes ArgoCD Terraform Deployment
+# Kubernetes ArgoCD Terraform Deployment (In Progress)
 
 This repository contains Terraform configurations and Kubernetes manifests for deploying infrastructure and ArgoCD on AWS using Terraform and Kubernetes EKS.
 

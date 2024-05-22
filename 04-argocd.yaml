@@ -1,0 +1,23 @@
+# Enable High Availability for Redis
+redis-ha:
+  enabled: true
+
+# Set the number of replicas for the controller
+controller:
+  replicas: 1
+
+# Configure autoscaling for the server
+server:
+  autoscaling:
+    enabled: true  # Enable autoscaling for the server
+    minreplicas: 2  # Minimum number of replicas
+
+# Configure autoscaling for the repoServer
+repoServer:
+  autoscaling:
+    enabled: true  # Enable autoscaling for the repoServer
+    minreplicas: 2  # Minimum number of replicas
+
+# Set the number of replicas for the applicationSet
+applicationSet:
+  replicas: 2
